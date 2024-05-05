@@ -21,6 +21,20 @@
     background-color: #756A4C;
 }
 
+/*----- special paddings/margins/text -----*/
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 600;
+}
+
 /*----- heading -----*/
 header {
     margin: 0;
@@ -102,7 +116,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 2px;
 }
 
@@ -110,4 +124,11 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/*----- footer -----*/
+footer {
+    background-color: #BCBED1;
+    min-height: 120px;
+    margin: 0;
 }
