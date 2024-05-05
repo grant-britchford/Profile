@@ -5,6 +5,22 @@
     background-color: #2D61F4;
 }
 
+.ui-menu-color-home {
+    background-color: #B59648;
+}
+
+.ui-menu-color-resume {
+    background-color: #F5BA25;
+}
+
+.ui-menu-color-contact {
+    background-color: #4D63A0;
+}
+
+.ui-menu-color-download {
+    background-color: #756A4C;
+}
+
 /*----- heading -----*/
 header {
     margin: 0;
@@ -40,4 +56,48 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
