@@ -5,6 +5,10 @@
     background-color: #2D61F4;
 }
 
+.bg-color-three-reasons {
+    background-color: lightgrey;
+}
+
 .ui-menu-color-home {
     background-color: #B59648;
 }
@@ -37,6 +41,23 @@ h1,h2,h3,h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*----- heading -----*/
@@ -167,10 +188,11 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    background-color: aquamarine;
-}
-
 #footer-details {
     padding: 20px;
+}
+
+/*----- three reasons -----*/
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
