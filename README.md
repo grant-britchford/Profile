@@ -32,9 +32,16 @@ and other site's.
 
 ### Languages:
 
+- HTML5
+- CSS3
+
 ### Frameworks:
 
 ### Databases:
+
+### Programs:
+
+- [Icons8](https://www.icons8.com), Resume favicon.
 
 ## Deployment
 
